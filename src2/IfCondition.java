@@ -28,6 +28,15 @@ public class IfCondition {
             num--;
         }
 
+        // for loop
+
+        for(count = 1; count != 5; count ++){
+            System.out.println(count);
+        }
+
+        // Roughly: when you don't know how many times the loop is going to run use "while loop"
+        // When you know how many times the loop is going to run use "for loop"
+
 
 
     }
