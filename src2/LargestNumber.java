@@ -25,5 +25,24 @@ public class LargestNumber {
         System.out.println(max);
 
 
+        int max1 = 0;
+        if (a>b) {
+            max1 = a;
+        } else {
+            max1 =b;
+        }
+         if (c> max1){
+             max1 = c;
+         }
+        System.out.println(max1);
+
+
+         // using Math.max function:
+
+        int max2 = Math.max(c, Math.max (a , b ));
+
+        System.out.println(max2);
+
+
     }
 }
