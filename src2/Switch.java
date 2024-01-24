@@ -18,6 +18,8 @@ public class Switch {
 //           default:
 //          do something }
 
+        // Write a program "Describe fruit":
+
         Scanner in = new Scanner (System.in);
         System.out.print("Enter a fruit name: ");
         String fruit = in.next();
@@ -36,7 +38,7 @@ public class Switch {
                 System.out.println("Small juice fruit: ");
                 break;
             default:
-                System.out.println(" Enter a valid fruit ");
+                System.out.println(" please enter a valid fruit ");
         }
     }
 }
