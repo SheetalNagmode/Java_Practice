@@ -28,7 +28,9 @@ public class EnhancedSwitch {
 
         // Instead of switch we can use enhanced switch for the above program
         // click on switch and do Alt + Enter = to select enhanced switch
-        // no need of separate breaks, much cleaner code.
+        // enhanced condition option is only shown when you have break after every condition in the code
+        // because in enhanced switch: every particular line contains a break condition but it's not written
+        // much cleaner code.
         // you can also change it to if statements by using the Alt+enter on switch
 
         switch (fruit) {
