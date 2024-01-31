@@ -3,8 +3,12 @@ package src2;
 public class Scope {
     public static void main(String[] args) {
 
-        // Block Scope basically means you can access the variables defined in a function
+        // Scope basically means you can access the variables defined in a function
         // only inside the function and not outside
+        // Anything that is initialised outside the block can be used inside the block.
+        // But what is initialised inside the block cannot be used outside the block
+        // Anything initialised outside the block cannot be reinitialised again inside the block, you can only modify it
+        // Anything initialised inside the block can again be reinitialised outside the block but cannot be used outside the block
 
         int a = 10;
         int b = 20;
@@ -27,6 +31,13 @@ public class Scope {
 
         // 1. Function Scope: you define a variable in a function you can only access those inside the function
         // this is also true for arguments e.g 'marks'
+
+        // Scoping in 'for loops'
+        for(int i = 0; i< 4; i++){
+            System.out.println(i);
+        }
+
+    //     System.out.println(i); // you cannot access 'i' outside the for loop
 
     }
 
