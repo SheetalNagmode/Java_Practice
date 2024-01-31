@@ -8,10 +8,26 @@ public class Swap {
 
         // swap numbers code
 
+    //    int temp = a;
+    //    a = b;
+    //    b = temp;
+
+        swap(a,b);
+
+        System.out.println(a + " "+ b);
+
+        String name = "Sheetal Nagmode";
+        changename(name);
+        System.out.println(name);
+
+    }
+     static void changename(String name){
+        name = " Sandeep Gaikwad";  // creating a new object
+     }
+
+    static void swap(int a , int b){
         int temp = a;
         a = b;
         b = temp;
-
-        System.out.println(a + " "+ b);
     }
 }
