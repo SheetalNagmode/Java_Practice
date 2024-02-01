@@ -16,9 +16,24 @@ public class Overloading {
         // Overloading by changing the number of parameters A method can be overloaded by changing the number of parameters.
 
         fun(67);
+
         fun("Sheetal");
 
+        int ans = sum (33, 56);
+        System.out.println(ans);
 
+        int result = sum (45, 33, 22);
+        System.out.println(result);
+
+
+    }
+
+    static int sum (int a , int b){
+        return a+b;
+    }
+
+    static int sum (int a, int b, int c){
+        return a + b + c;
     }
 
     static void fun(int a){

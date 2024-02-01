@@ -15,9 +15,25 @@ public class VariableArguments {
 
         multiple(2,4,"Sheetal", "Sandeep", "Atharv", "Sudha", "Ram", "Amit");
 
+        demo (2,3,4);
+
+        demo ("Sheetal", "Atharv", "Sandeep");
+
+    //  demo();   It can't be empty when you are overloading  Variable arguments.
+    //  This is called Ambiguity
 
 
 
+
+
+    }
+
+    static void demo (int ...v){
+        System.out.println(Arrays.toString(v));
+    }
+
+    static void demo(String ...v){
+        System.out.println(Arrays.toString(v));
     }
 
     static void multiple(int a , int b, String...v){  // variable length always shown with three dots not more or less
