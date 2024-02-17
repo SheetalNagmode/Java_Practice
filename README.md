@@ -5,10 +5,10 @@ CORE JAVA
 3. Java Operators & expressions
 4. Conditional Statements
 5. Loops & Jump Statements
-6. Single & two dimentional Arrays
+6. Single & two-dimensional Arrays
 7. Arrays - coding examples on arrays
 8. String methods
-9. String immutability - String, Stringbuilder, Stringbuffer
+9. String immutability - String, String builder, String-buffer
 10. OOPS Concepts - Class, object, method
 11. Java methods & constructors
 12. Polymorphism & Encapsulation
