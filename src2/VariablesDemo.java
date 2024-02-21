@@ -34,7 +34,10 @@ public class VariablesDemo {
         System.out.println("The value of b is " + b);
         System.out.println("The value of c is " + c);
 
-        System.out.println(a+" "+b+" "+c);   // space in between the variable will print the variables in single line
+        System.out.println(a+" "+b+" "+c);
+        // space in between the variable will print the variables in single line
+        // without space it will perform addition operation
+        // space with quotation is also consider as a string
 
 
 
