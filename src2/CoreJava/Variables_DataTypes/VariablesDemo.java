@@ -1,4 +1,4 @@
-package src2;
+package src2.CoreJava.Variables_DataTypes;
 
 public class VariablesDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src2;
+package src2.CoreJava.JavaOperators_Expressions;
 
 public class OperatorsDemo {
     public static void main(String[] args) {
