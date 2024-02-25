@@ -1,4 +1,4 @@
-package src2.CoreJava.JavaOperators_Expressions;
+package src2.CoreJava.ConditionalStatements;
 
 public class IfConditionDemo {
     public static void main(String[] args) {
