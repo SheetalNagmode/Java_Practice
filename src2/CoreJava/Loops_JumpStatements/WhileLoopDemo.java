@@ -29,6 +29,15 @@ public class WhileLoopDemo {
         }
 
 
+        // Example 3: Print even numbers between 1 to 10
+
+        int y = 2;
+        while (y <=10){
+            System.out.println(y);
+            y+=2;         // y=y+2
+        }
+
+
 
     }
 }
