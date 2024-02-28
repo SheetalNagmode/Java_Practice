@@ -48,5 +48,19 @@ public class WhileLoopDemo {
             y++;
         }
 
+        // Example 4: Print even and odd from 1 to 10 numbers
+
+        int z = 0;
+        while (z<=10){
+            if(z%2==0) {
+                System.out.println(z + "-"+ "Even");
+            } else {
+                System.out.println(z + "-"+ "Odd");
+            }
+                z++;
+
+            }
+        }
+
     }
-}
+
