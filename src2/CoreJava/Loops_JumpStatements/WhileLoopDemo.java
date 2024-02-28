@@ -20,6 +20,14 @@ public class WhileLoopDemo {
             i++;             // incrementation
         }
 
+        // Example 2: Print Hello Message 10 times
+
+        int x = 1;
+        while (x<=10){
+            System.out.println("Hello");
+            x++;
+        }
+
 
 
     }
