@@ -26,6 +26,7 @@ public class ForLoopDemo {
         }
 
         // Print even and odd numbers from 1 to 10:
+        // using for loop and conditional statement
 
         for (int x = 0; x<=10; x++)
         {
@@ -34,6 +35,14 @@ public class ForLoopDemo {
             }else{
                 System.out.println(x + "-"+ "Odd");
             }
+        }
+
+
+
+        // Print 10 to 1 in descending order:
+
+        for (int b=10; b>=0 ; b-- ){
+            System.out.println(b);
         }
 
 
