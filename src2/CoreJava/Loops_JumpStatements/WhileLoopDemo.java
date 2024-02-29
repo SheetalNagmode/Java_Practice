@@ -49,6 +49,7 @@ public class WhileLoopDemo {
         }
 
         // Example 4: Print even and odd from 1 to 10 numbers
+        // Use of conditional statement inside a loop statement
 
         int z = 0;
         while (z<=10){
@@ -60,6 +61,15 @@ public class WhileLoopDemo {
                 z++;
 
             }
+        // Example 5: print 10 to 1
+
+        int a = 10;
+        while(a>=1){           // Also can a>=0
+            System.out.println(a);
+            a--;
+        }
+
+
         }
 
     }
