@@ -14,7 +14,7 @@ public class SingleDimensionalArray {
         // Declaring array
         // Approach 1
 
-        int a[] = new int [5];
+        int a[] = new int [5];        // int []a = new int [5]
 
         a[0]=100;              // Use this method if you know how many elements are to be added and
         a[1]=200;              // there will be no plan to change (adding more elements) in the future
