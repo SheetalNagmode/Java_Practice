@@ -66,9 +66,11 @@ public class TwoDimensionalArray {
 
         for(int arr[]: a){
             for(int x: arr){
-                System.out.println(x);
+                System.out.print(x +  " ");
             }
+            System.out.println();
         }
+
 
     }
 }
