@@ -56,15 +56,19 @@ public class TwoDimensionalArray {
         }
 
         for (int r = 0; r <= a.length-1; r++) {           // When you don't know the length
-            for (int c = 0; c <= a[r].length-1; c++) {
+            for (int c = 0; c <= a[r].length-1; c++) {    // You can also write r<a.length / c<a.length
                 System.out.print(a[r][c] + " ");
             }
             System.out.println();
         }
 
+        // enhanced for loop
 
-
-
+        for(int arr[]: a){
+            for(int x: arr){
+                System.out.println(x);
+            }
+        }
 
     }
 }
