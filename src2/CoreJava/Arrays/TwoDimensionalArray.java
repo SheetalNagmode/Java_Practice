@@ -44,6 +44,17 @@ public class TwoDimensionalArray {
         System.out.println(a[2][1]);   //600
 
 
+        // normal for
+        for (int r = 0; r <=2 ; r++)
+            {      // 0 1   outer for loop
+            for (int c = 0; c <=1 ; c++)
+            {  // 0 1   inner for loop/ once the inner for loop repetation are completed
+                // than it goes to outer for loop/ value will be increment than again go inside the for loop
+                System.out.println(a[r][c]);       // 100 200 300 400 500 600
+            }
+        }
+
+
 
 
 
