@@ -50,8 +50,9 @@ public class TwoDimensionalArray {
             for (int c = 0; c <=1 ; c++)
             {  // 0 1   inner for loop/ once the inner for loop repetation are completed
                 // than it goes to outer for loop/ value will be increment than again go inside the for loop
-                System.out.println(a[r][c]);       // 100 200 300 400 500 600
+                System.out.print(a[r][c] + "   ");       // 100 200 300 400 500 600
             }
+                System.out.println();
         }
 
 
